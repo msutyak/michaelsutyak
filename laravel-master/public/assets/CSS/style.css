@@ -1,0 +1,375 @@
+/*@import url("type_include.css");
+*/
+/* ======== */
+/* = HTML = */
+/* ======== */
+
+		* { 
+			padding: 0; 
+			margin: 0;
+			font-size: 17pt;
+		}
+		
+		body {
+			color: #4b4a48;
+			font-family: Alright Sans Thin, Helvetica, Arial, sans-serif; 
+			line-height: 29pt;
+			-webkit-font-feature-settings: 'pnum', 'lnum';
+			-moz-font-feature-settings: 'pnum', 'lnum';
+			-ms-font-feature-settings: 'pnum', 'lnum';
+		}
+		
+/* ========================== */
+/* = Special One Off Things = */
+/* ========================== */
+
+		#container-masonry, #container-tumblr {
+			margin: 26px 0 30px 0;
+		}
+		
+		#title-display {
+			margin: 20px 0 0 0;
+		}
+		
+		#copyright {
+			line-height: 0;
+			margin: 30px 0 0 0;
+		}
+		
+		#hr-index-top { margin: 28px auto 30px auto; }
+		#hr-index-middle { margin: 20px auto 22px auto; }
+		#hr-index-bottom { margin: 0 auto 25px auto; }
+		
+		#name-and-title {
+			margin: 12px 0 0 0;
+			line-height: 21pt;
+		}
+		
+		#year-display { line-height: 0px; }
+		
+		a:hover#portrait-link #name-and-title span {
+			color: #2518b5; /*Google Blue*/
+			border-bottom: 1px solid #2518b5;
+		}
+				
+/* =============== */
+/* = Link Styles = */
+/* =============== */	
+	
+		a {
+			color: #4b4a48;
+			text-decoration: none;
+		}
+		
+		a.reg_link, a.index_link, #container-tumblr span.caption p a, .thumbnail-title span, a.forward { position: relative; }
+		
+		a.reg_link::after, a.forward span::after, a.back span::after, a.home span::after, #container-tumblr span.caption p a::after {
+		    content:'';
+		    position:absolute;
+		    width: 100%;
+		    height: 0;    
+		    left:0;
+		    bottom: 2px;                    /* <- distance */
+		    border-bottom: 1px solid #ddd; 
+		}
+		
+		a.reg_link:hover, a.index_link:hover, a:hover .thumbnail-title span, #container-tumblr span.caption p a:hover, a.forward:hover span, a.back:hover span, a.home:hover span {
+			color: #2518b5; /*Google Blue*/
+			border: none;
+		}
+
+		a.reg_link:hover::after, a.index_link:hover::after, a:hover .thumbnail-title span::after, #container-tumblr span.caption p a:hover::after, a.forward:hover span::after, a.back:hover span::after, a.home:hover span::after{
+		    content:'';
+		    position:absolute;
+		    width: 100%;
+		    height: 0;    
+		    left:0;
+		    bottom: 2px;                    /* <- distance */
+		    border-bottom: 1px solid #2518b5;
+		}
+		
+		a.index_link.small_caps:hover::after, a:hover .thumbnail-title span::after, a.reg_link.small_type::after, a.reg_link.small_type:hover::after, a.forward:hover span::after, a.forward span::after, a.back span::after, a.back:hover span::after, a.home:hover span::after, a.home span::after, #container-tumblr span.caption p a::after, #container-tumblr span.caption p a:hover::after {
+			bottom: 1px !important;
+		}
+		
+		
+/* ===================== */
+/* = Typography Styles = */
+/* ===================== */
+		
+		h1 { font-family: Alright Sans Medium, Helvetica, Arial, sans-serif; }
+		
+		h2 { font-family: Alright Sans Regular, Helvetica, Arial, sans-serif; }
+		
+		h3 { font-family: Alright Sans  Light, Helvetica, Arial, sans-serif; }
+		
+		.small_caps, .small_caps span, span.caption, .details strong, .thumbnail-title span, p.flex-caption span, #container-tumblr span.caption p, #container-tumblr span.caption p a {
+			font-family: Alright Sans Medium, Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			letter-spacing:2px;
+			font-size: 7pt;
+		}
+		
+		.thumbnail-title span, .small_caps span { line-height: 10pt; }
+		
+		.thumbnail-title { margin: 12px 0 0 0; }
+		
+		.thumbnail-title span { font-family: Alright Sans Regular, Helvetica, Arial, sans-serif; }
+		
+		.details strong { line-height: 15pt; }
+		
+		.details em { font-style:normal; }
+		
+		.story strong {
+			font-family: Alright Sans Medium, Helvetica, Arial, sans-serif;
+			font-size: 13pt !important;
+			line-height: 20pt;
+		}
+
+		.small_type, .details em, .small_type .reg_link {
+			font-size: 13pt;
+			line-height: 20pt;
+			font-family: Alright Sans Light, Helvetica, Arial, sans-serif;
+		}
+		
+		
+/* ==================== */
+/* = Paragraph Styles = */
+/* ==================== */		
+		
+		#description p {
+			margin: 0 auto;
+			width: 775px;
+		}
+		
+		#description .grid-50 p {
+			width: 466px;
+			text-align: left;
+			position: relative;
+			top: -7px;
+		}
+		
+		p.twocolumn {
+			-moz-column-count:2; /* Firefox */
+			-webkit-column-count:2; /* Safari and Chrome */
+			column-count:2;
+			-moz-column-gap:38px; /* Firefox */
+			-webkit-column-gap:38px; /* Safari and Chrome */
+			column-gap:38px;
+			text-align: justify;
+		}
+		
+		.story {
+			width: 575px;
+			padding: 80px 100px;
+			margin:0 auto;
+			border: 1px solid #ddd;
+			text-align: left;
+		}
+
+		
+/* ==================== */
+/* = Horizontal Rules = */
+/* ==================== */	
+	
+		hr.top, hr.bottom {
+			margin: 0 auto;
+			border: 0;
+			height: 11px;
+			width: 331px;
+			background: #fff;
+		}
+		
+		hr.top {
+			background-image:url('../../images/general/hr.png');
+		}
+		
+		hr.bottom {
+			background-image:url('../../images/general/hr.png');
+			background-position: 0 11px; 
+		}
+		
+		
+/* ========================== */
+/* = Primary Page Container = */
+/* ========================== */
+
+		#container {
+			position: relative;
+			z-index: 100;
+			width: 100%;
+			text-align: center;
+		}
+
+		#container-center {
+			background: #fff;
+			width: 100%;
+		}
+	
+		#container-content {
+			margin: 0 auto;
+			width: 970px;
+			padding: 70px 0;
+		}
+		
+		
+/* ============================ */
+/* = Index Masonry Thumbnails = */
+/* ============================ */
+
+		.box { padding: 0 0 38px 0; }
+
+		.box img { width: 214px; }
+		
+	
+/* =============== */
+/* = Description = */
+/* =============== */
+		
+		#description h2 { margin: 0 0 15px 0; }
+		
+		#description { margin: 20px 0 42px 0; }
+		
+		#description img, #description object { width: 970px; }
+		
+
+/* ================ */
+/* = Image Border = */
+/* ================ */
+		
+		.border { 
+			display: block;
+			float: left;
+			position: relative;
+		}	
+		
+		.border img, .border object { display: block; }
+
+		.border::after {
+			border: 1px solid rgba(0, 0, 0, .1);
+			bottom: 0;
+			content: '';
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		
+		a.box .border::after {
+			border: 1px solid rgba(0, 0, 0, .07);
+		}
+		
+/* ============================== */
+/* = Multi-Column Image Layouts = */
+/* ============================== */
+		
+		
+		.grid-20, .grid-25, .grid-33, .grid-50, .grid-66, .grid-75 { float: left; }
+		
+		.grid-20, .grid-20 img { width: 166px !important; }
+		.grid-25, .grid-25 img { width: 214px !important; }
+		.grid-33, .grid-33 img { width: 298px !important; }
+		.grid-50, .grid-50 img { width: 466px !important; }
+		.grid-66, .grid-66 img { width: 634px !important; }
+		.grid-75, .grid-75 img { width: 718px !important; }
+		
+		.gutter-right { margin-right: 38px; }
+		.gutter-right-20 { margin-right: 35px; }
+		.gutter-bottom { margin-bottom: 38px; }
+		
+/* ================== */
+/* = Image Captions = */
+/* ================== */	
+
+		span.caption {
+			display: block;
+			line-height: 10px;
+			margin-top: 12px;
+		}
+		
+/* ======================================== */
+/* = Next & Back Buttons for Display Page = */
+/* ======================================== */
+
+		a.forward, a.back, a.home { 
+			position: fixed;
+			width: 90px;
+		}
+		
+		a.forward span, a.back span, a.home span { line-height: 10pt;}
+		a.forward:hover span, a.back:hover span, a.home:hover span { opacity: 1 !important; }
+		
+		a.forward span, a.back span { position: relative; top: 1px; }
+		a.forward div, a.back div { 
+			height: 27px; 
+			width: 16px;
+			display: block;
+		}
+		
+		a.back, a.home { text-align: left; }
+		
+		/*forward Button*/
+		a.forward { top: 48%; right: 25px; text-align: right; }
+		a.forward div { 
+			float: right;
+			background: url('../../images/general/nav_next_back.png') no-repeat 0 0;
+			margin-left: 5px;
+			background-position: -16px 0;
+		}
+		a.forward:hover div { background-position: -16 -27px; }
+		
+		/*Back Button*/
+		a.back { top: 48%; left: 25px; }
+		a.back div { 
+			float: left;
+			background: url('../../images/general/nav_next_back.png') no-repeat 0 0;
+			margin-right: 5px;
+		}
+		a.back:hover div { background-position: 0 -27px; }
+		
+		/*Home Button*/
+		a.home { top: 22px; left: 25px; }
+		a.home div {
+			height: 15px;
+			width: 18px;
+			display: block;
+			float: left;
+			background: url('../../images/general/nav_home.png') no-repeat 0 0;
+			margin-right: 4px;
+		}
+		a.home:hover div { background-position: 0 -15px; }
+		a.home span { position: relative; top: 2px; }
+		
+		/*950px Wide Version*/
+		@media screen and (max-width: 1250px) {
+			
+			a.forward span, a.back span, a.home span { display: none !important; }
+		}
+		
+		/*650px Wide Version*/
+		@media screen and (max-width: 1100px) {
+			
+			a.forward, a.back, a.home { display: none !important; }
+		}
+		
+		
+/* ============ */
+/* = Clearfix = */
+/* ============ */
+
+		.clearfix:after {
+		    content: ".";
+		    display: block;
+		    height: 0;
+		    clear: both;
+		    visibility: hidden;
+		}
+
+		.clearfix { display: inline-block;}
+
+		/* Hides from IE-mac \*/
+		* html .clearfix { height: 1%; }
+		.clearfix { display: block; }
+		/* End hide from IE-mac */
+		
+		
