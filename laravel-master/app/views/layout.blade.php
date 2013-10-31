@@ -2,14 +2,13 @@
 
 <head>
 <meta charset="utf-8">
-<link rel="shortcut icon" href='/assets/favicon.ico?'>
+<link rel="shortcut icon" href='/assets/images/volcano_ico.ico?'>
 <title>Michael Sutyak</title>
 {{ HTML::style('/assets/CSS/style.css') }}
-{{ HTML::style('//cloud.webtype.com/css/4bf995be-bdb8-4e20-bdf3-30fb58c57828.css') }}
 
 {{ HTML::script('http://code.jquery.com/jquery-latest.js') }}
 </head>
 <body>
-
+@yield('container')
 </body>
 </html>
