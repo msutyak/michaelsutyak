@@ -1,33 +1,35 @@
-/*@import url("type_include.css");
-*/
 /* ======== */
 /* = HTML = */
 /* ======== */
 
 @font-face {
   font-family: "Alright Sans Light";
-  src:url('../WebFonts/AlrightSans/AlrightSans-Light-v3.woff');
+  src:url('../WebFonts/AlrightSans/AlrightSans-Light-v3.eot');
+  src:url('../WebFonts/AlrightSans/AlrightSans-Light-v3.eot?#iefix') format("embedded-opentype"),url('../WebFonts/AlrightSans/AlrightSans-Light-v3.woff') format("woff"),url('../WebFonts/AlrightSans/AlrightSans-Light-v3.ttf') format("truetype"),url('../WebFonts/AlrightSans/AlrightSans-Light-v3.svg') format("svg");
   font-style: normal;
   font-weight: normal;
   }
 	
 @font-face  {
   font-family: "Alright Sans Medium";
-  src:url('../WebFonts/AlrightSans/AlrightSans-Medium-v3.woff');
+  src:url('../WebFonts/AlrightSans/AlrightSans-Medium-v3.eot');
+  src:url('../WebFonts/AlrightSans/AlrightSans-Medium-v3.eot?#iefix') format("embedded-opentype"),url('../WebFonts/AlrightSans/AlrightSans-Medium-v3.woff') format("woff"),url('../WebFonts/AlrightSans/AlrightSans-Medium-v3.ttf') format("truetype"),url('../WebFonts/AlrightSans/AlrightSans-Medium-v3.svg') format("svg");
   font-style: normal;
   font-weight: normal;
   }
 
 @font-face  {
    font-family: "Alright Sans Regular";
-   src:url('../WebFonts/AlrightSans/AlrightSans-Regular-v3.woff');
+   src:url('../WebFonts/AlrightSans/AlrightSans-Regular-v3.eot');
+   src:url('../WebFonts/AlrightSans/AlrightSans-Regular-v3.eot?#iefix') format("embedded-opentype"),url('../WebFonts/AlrightSans/AlrightSans-Regular-v3.woff') format("woff"),url('../WebFonts/AlrightSans/AlrightSans-Regular-v3.ttf') format("truetype"),url('../WebFonts/AlrightSans/AlrightSans-Regular-v3.woff') format("woff"),url('../WebFonts/AlrightSans/AlrightSans-Regular-v3.svg') format("svg");
    font-weight:normal;
    font-style:normal;
    }
 	
 @font-face  {
     font-family: "Alright Sans Thin";
-	src:url('../WebFonts/AlrightSans/AlrightSans-Thin-v3.woff');
+    src:url('../WebFonts/AlrightSans/AlrightSans-Thin-v3.eot');
+	src:url('../WebFonts/AlrightSans/AlrightSans-Thin-v3.eot?#iefix') format("embedded-opentype"),url('../WebFonts/AlrightSans/AlrightSans-Thin-v3.woff') format("woff"),url('../WebFonts/AlrightSans/AlrightSans-Thin-v3.ttf') format("truetype"),url('../WebFonts/AlrightSans/AlrightSans-Thin-v3.svg') format("svg");
 	font-weight:normal;
     font-style:normal;
 	}
