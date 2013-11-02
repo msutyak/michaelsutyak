@@ -9,17 +9,17 @@
 	<h3 id="name-and-title"><span>Michael Sutyak</span></h3>
 		<br>	
 		<div class="small_caps">
-		<a href="mailto:msutyak@gmail.com"><img src="/assets/images/email_icon.png" class="social-icons" height="22px"></a>
+		<a href="mailto:msutyak@gmail.com" target="_blank"><img src="/assets/images/email_icon.png" class="social-icons" height="22px"></a>
 		&nbsp;&nbsp;
-		<a href="https://www.linkedin.com/in/michaelsutyak"><img src="/assets/images/linkedin_icon.jpg" class="social-icons" height="22px"></a>
+		<a href="https://www.linkedin.com/in/michaelsutyak" target="_blank"><img src="/assets/images/linkedin_icon.jpg" class="social-icons" height="22px"></a>
 		&nbsp;&nbsp;
-		<a href="https://twitter.com/msutyak"><img src="/assets/images/twitter_icon.png" class="social-icons" height="22px"></a>
+		<a href="https://twitter.com/msutyak" target="_blank"><img src="/assets/images/twitter_icon.png" class="social-icons" height="22px"></a>
 		&nbsp;&nbsp;
-		<a href="https://www.facebook.com/michael.sutyak"><img src="/assets/images/facebook_icon.png" class="social-icons" height="22px"></a>
+		<a href="https://www.facebook.com/michael.sutyak" target="_blank"><img src="/assets/images/facebook_icon.png" class="social-icons" height="22px"></a>
 		&nbsp;&nbsp;
-		<a href="http://instagram.com/msutyak"><img src="/assets/images/instagram_icon.png" class="social-icons" height="22px"></a>
+		<a href="http://instagram.com/msutyak" target="_blank"><img src="/assets/images/instagram_icon.png" class="social-icons" height="22px"></a>
 		&nbsp;&nbsp;
-		<a href="http://michaelsutyak.wordpress.com/"><img src="/assets/images/wordpress_icon.png" class="social-icons" height="22px"></a>
+		<a href="http://michaelsutyak.wordpress.com/" target="_blank"><img src="/assets/images/wordpress_icon.png" class="social-icons" height="22px"></a>
 		</div>
 
 		<p>
