@@ -18,13 +18,13 @@
 		</p>
 		<br>
 		<div class="small_caps">
-		<img src="/assets/images/email_icon.png" class="social-icons" height="22px">
+		<a href="mailto:msutyak@gmail.com"><img src="/assets/images/email_icon.png" class="social-icons" height="22px"></a>
 		&nbsp;&middot;&nbsp;
-		<img src="/assets/images/linkedin_icon.jpg" class="social-icons" height="22px">
+		<a href="https://www.linkedin.com/in/michaelsutyak"><img src="/assets/images/linkedin_icon.jpg" class="social-icons" height="22px"></a>
 		&nbsp;&middot;&nbsp;
-		<img src="/assets/images/twitter_icon.png" class="social-icons" height="22px">
+		<a href="https://twitter.com/msutyak"><img src="/assets/images/twitter_icon.png" class="social-icons" height="22px"></a>
 		&nbsp;&middot;&nbsp;
-		<img src="/assets/images/facebook_icon.png" class="social-icons" height="22px">
+		<a href="https://www.facebook.com/michael.sutyak"><img src="/assets/images/facebook_icon.png" class="social-icons" height="22px"></a>
 		&nbsp;&middot;&nbsp;
 		<img src="/assets/images/instagram_icon.png" class="social-icons" height="22px">
 		&nbsp;&middot;&nbsp;
