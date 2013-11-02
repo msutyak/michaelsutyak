@@ -16,17 +16,19 @@
 		Prior to Facebook, he worked with <a href="http://thedecoderring.com/" target="_blank" class="index_link">Decoder Ring</a> / <a href="http://helmsworkshop.com" target="_blank" class="index_link">Helms Workshop</a><br> 
 		in <a href="http://g.co/maps/ssztb" target="_blank" class="index_link">Austin, Texas</a>. He is also an alumni and advisor of <a href="http://projectmlab.com/" target="_blank" class="index_link">Project M</a>.
 		</p>
-
+		<br>
 		<div class="small_caps">
-		<a href="mailto:howdy@designforfun.com" class="small_caps index_link">E-Mail</a>
+		<img src="/assets/images/email_icon.png" class="social-icons" height="22px">
 		&nbsp;&middot;&nbsp;
-		<a href="http://facebook.com/benbarry" class="small_caps index_link" target="_blank">Facebook</a>
+		<img src="/assets/images/linkedin_icon.jpg" class="social-icons" height="22px">
 		&nbsp;&middot;&nbsp;
-		<a href="http://instagram.com/benbarry" class="small_caps index_link" target="_blank">Instagram</a>
+		<img src="/assets/images/twitter_icon.png" class="social-icons" height="22px">
 		&nbsp;&middot;&nbsp;
-		<a href="http://twitter.com/benbarry" class="small_caps index_link" target="_blank">Twitter</a>
-		<!-- &nbsp;&middot;&nbsp;
-		<a href="http://medium.com/@benbarry" class="small_caps index_link" target="_blank">Medium</a> -->							
+		<img src="/assets/images/facebook_icon.png" class="social-icons" height="22px">
+		&nbsp;&middot;&nbsp;
+		<img src="/assets/images/instagram_icon.png" class="social-icons" height="22px">
+		&nbsp;&middot;&nbsp;
+		<img src="/assets/images/wordpress_icon.png" class="social-icons" height="22px">
 		</div>
 
 		<hr id="hr-index-middle" class="bottom">

@@ -402,5 +402,15 @@
 		* html .clearfix { height: 1%; }
 		.clearfix { display: block; }
 		/* End hide from IE-mac */
+
+		.social-icons {
+		opacity:0.4;
+		filter:alpha(opacity=40);
+		}
+
+		.social-icons:hover {
+		opacity:1;
+		filter:alpha(opacity=100);
+		}
 		
 		
