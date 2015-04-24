@@ -105,7 +105,7 @@
 		}
 		
 		a.reg_link:hover, a.index_link:hover, a:hover .thumbnail-title span, #container-tumblr span.caption p a:hover, a.forward:hover span, a.back:hover span, a.home:hover span {
-			color: #207cae; /*Google Blue*/
+			color: #207cae; 
 			border: none;
 		}
 
@@ -123,6 +123,9 @@
 			bottom: 1px !important;
 		}
 		
+		i.fa {
+			color: #207cae;
+		}
 		
 /* ===================== */
 /* = Typography Styles = */

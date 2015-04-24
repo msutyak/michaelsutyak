@@ -9,15 +9,17 @@
 	<h3 id="name-and-title"><span>Michael Sutyak</span></h3>
 		<br>	
 		<div class="small_caps">
-		<a href="mailto:msutyak@gmail.com" target="_blank"><img src="/assets/images/email_icon.png" class="social-icons" height="22px"></a>
+		<a href="mailto:msutyak@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="https://www.linkedin.com/in/michaelsutyak" target="_blank"><img src="/assets/images/linkedin_icon.jpg" class="social-icons" height="22px"></a>
+		<a href="https://www.linkedin.com/in/michaelsutyak" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="https://twitter.com/msutyak" target="_blank"><img src="/assets/images/twitter_icon.png" class="social-icons" height="22px"></a>
+		<a href="https://twitter.com/msutyak" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="https://www.facebook.com/michael.sutyak" target="_blank"><img src="/assets/images/facebook_icon.png" class="social-icons" height="22px"></a>
+		<a href="https://www.facebook.com/michael.sutyak" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="http://instagram.com/msutyak" target="_blank"><img src="/assets/images/instagram_icon.png" class="social-icons" height="22px"></a>
+		<a href="https://instagram.com/msutyak" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+		&nbsp;&nbsp;
+		<a href="https://medium.com/@msutyak" target="_blank"><i class="fa fa-medium fa-lg"></i></a>
 		</div>
 
 		<p>
@@ -26,6 +28,7 @@
 		He also enjoys building and growing consumer facing web and mobile products,</br> 
 		and exploring new technologies.
 		</p>
+
 
 		<hr id="hr-index-middle" class="bottom">
 </div>
