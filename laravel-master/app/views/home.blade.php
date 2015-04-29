@@ -35,7 +35,7 @@
 </div>
 </div>
 
-<script type="javascript">
+<script type="text/javascript">
 $("#email").click(function(event){
         mixpanel.track("email click");
     });
