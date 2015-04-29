@@ -59,6 +59,11 @@ $("#instagram").click(function(event){
 $("#medium").click(function(event){
         mixpanel.track("medium click");
     });
+
+mixpanel.track('page viewed', {
+    'page name' : document.title,
+    'url' : window.location.pathname
+});
 </script>
 
 @stop
