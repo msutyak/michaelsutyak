@@ -9,17 +9,17 @@
 	<h3 id="name-and-title"><span>Michael Sutyak</span></h3>
 		<br>	
 		<div class="small_caps">
-		<a href="mailto:msutyak@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a>
+		<a href="mailto:msutyak@gmail.com" id="email" target="_blank"><i class="fa fa-envelope fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="https://www.linkedin.com/in/michaelsutyak" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
+		<a href="https://www.linkedin.com/in/michaelsutyak" id="linkedin" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="https://twitter.com/msutyak" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+		<a href="https://twitter.com/msutyak" id="twitter" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="https://www.facebook.com/michael.sutyak" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+		<a href="https://www.facebook.com/michael.sutyak" id="facebook" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="https://instagram.com/msutyak" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+		<a href="https://instagram.com/msutyak" id="instagram" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
 		&nbsp;&nbsp;
-		<a href="https://medium.com/@msutyak" target="_blank"><i class="fa fa-medium fa-lg"></i></a>
+		<a href="https://medium.com/@msutyak" id="medium" target="_blank"><i class="fa fa-medium fa-lg"></i></a>
 		</div>
 
 		<p>
@@ -34,5 +34,31 @@
 </div>
 </div>
 </div>
+
+<script type="javascript">
+$("#email").click(function(event){
+        mixpanel.track("email click");
+    });
+
+$("#linkedin").click(function(event){
+        mixpanel.track("linkedin click");
+    });
+
+$("#twitter").click(function(event){
+        mixpanel.track("twitter click");
+    });
+
+$("#facebook").click(function(event){
+        mixpanel.track("facebook click");
+    });
+
+$("#instagram").click(function(event){
+        mixpanel.track("instagram click");
+    });
+
+$("#medium").click(function(event){
+        mixpanel.track("medium click");
+    });
+</script>
 
 @stop
