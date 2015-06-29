@@ -23,7 +23,7 @@
 		</div>
 
 		<p>
-		Michael is currently a Senior Acquisition Marketing Manager at <a href="https://www.studyblue.com" target="_blank" class="index_link">StudyBlue</a> in <a href="http://goo.gl/maps/II5G3" target="_blank" class="index_link">San Francisco, California,</a><br>
+		Michael is currently a Senior Acquisition Marketing Manager at <a href="https://www.studyblue.com" target="_blank" class="index_link">StudyBlue</a> in <a href="http://goo.gl/maps/II5G3" target="_blank" class="index_link">San Francisco, California,</a>
 		where he leads the growth effort for web and mobile apps.</br>
 		He also enjoys building and growing consumer facing web and mobile products,</br> 
 		and exploring new technologies.
